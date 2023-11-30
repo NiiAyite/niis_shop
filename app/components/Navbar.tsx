@@ -23,7 +23,7 @@ import { CartNumber } from "./CartItems"
 
 export const Navbar = () => {
     return (
-        <div className="border border-b-white rounded-md">
+        <div className="sticky top-0 border border-b-black dark:border-b-white rounded-md">
             <div className="flex justify-evenly items-center py-5">
                 <h2 className="font-bold text-3xl">Nii&apos;s Shop</h2>
                 <div className="flex justify-between items-center">
